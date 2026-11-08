@@ -15,11 +15,9 @@ Fill these in, since results depend on them.
 | Host OS (lab machine) | CachyOS, Hyprland |
 | Host shell | fish (scripts must use a `#!/usr/bin/env bash` shebang) |
 | Host RAM | 8 GB (VM gets 4 GB) |
-| QEMU version | _fill in_ |
-| OVMF / edk2 version | _fill in_ |
-| Guest ISO | CachyOS desktop ISO, version/date: _fill in_ |
-| Installer version | _fill in_ |
-| Guest kernel | _fill in_ |
+| QEMU version | 11.1.3 |
+| OVMF / edk2 version | 202608-1 |
+| Guest ISO | CachyOS desktop ISO, version/date: 260809 |
 
 ## Host tool dependencies found so far
 

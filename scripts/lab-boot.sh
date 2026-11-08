@@ -8,5 +8,5 @@ qemu-system-x86_64 -enable-kvm -machine q35 -cpu host -smp 4 -m 4096 \
   -device qemu-xhci \
   -drive file=$HOME/chilled-lab/stick.img,format=raw,if=none,id=stick \
   -device usb-storage,drive=stick,removable=on \
-  # -cdrom $HOME/Downloads/cachyos-desktop-linux-260809.iso \
+  # -cdrom $HOME/Downloads/cachyos-desktop-linux-260809.iso \ UNCOMMENT FOR FIRST RUN, COMMENT AFTER INSTALL
   -nic user,model=virtio-net-pci -device virtio-vga -display gtk
