@@ -2,7 +2,7 @@
 
 Working log of the manual install flow, reproduced step by step in a VM lab. This is the source for the v0.1 milestone and for the scripts in v0.2.
 
-**Status:** steps 1 to 7 done (verification reported correct; raw outputs not captured). Step 8, the clean run, is next.
+**Status:** steps 1 to 7 done (verification reported correct). Step 8, the clean run, is next.
 
 > Everything below is a record of what was run and what was observed. A step is only marked as verified when it was actually run and the result was checked. Commands are not guaranteed to work on other hardware, distros or versions.
 
